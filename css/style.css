@@ -141,6 +141,7 @@ footer {
   body {
     font-size: 1rem;
     width: 100%;
+    transition-duration: 2s;
   }
   .nav-bar {
     flex-direction: column;
@@ -152,5 +153,13 @@ footer {
   } */
   .intro-box {
     width: 80%;
+  }
+  #about img {
+    width: 10rem;
+  }
+}
+@media screen and (min-width: 730px) {
+  body {
+    transition-duration: 2s;
   }
 }
