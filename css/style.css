@@ -18,7 +18,7 @@ body {
 }
 
 .intro-container {
-  background-image: url(/css/images/andrew-ridley-jR4Zf-riEjI-unsplash.jpeg);
+  background-image: url(./images/andrew-ridley-jR4Zf-riEjI-unsplash.jpeg);
   background-size: cover;
   min-height: 100vh;
   width: 100%;
@@ -78,7 +78,7 @@ body {
 
 #about {
   padding-top: 10px;
-  background-image: url(/css/images/black-gc2896b1c1_1920.jpeg);
+  background-image: url(./images/black-gc2896b1c1_1920.jpeg);
   text-align: center;
 }
 #about img {
@@ -95,7 +95,7 @@ body {
   color: #000;
   text-align: center;
   background-size: cover;
-  background-image: url(/css/images/mockaroon-YqUeLG7fMr4-unsplash.jpeg);
+  background-image: url(./images/mockaroon-YqUeLG7fMr4-unsplash.jpeg);
   width: 100%;
 }
 #contact h3 {
