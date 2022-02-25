@@ -1,74 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Hessam Imen</title>
-</head>
-<body>
-    <div class="intro-container">
-        <div class="nav-bar">
-            <h2>My Personal Websit</h1>
-            <a href="#social">Social Media</a>
-            <a href="#contact">Contact</a>
+  </head>
 
-            <a href="#about">About</a>
+  <body>
+    <div class="intro-container">
+      <div class="nav-bar">
+        <div id="home">
+          <a href="#">
+            <h2>My Personal Websit</h2>
+          </a>
         </div>
-        <div class="intro-box">
-            <h2>Hessam Imen</h2>
-            <p>Web designer & front-end developer focused on crafting clean  & user-friendly experiences.
-            </p>
+        <div id="navigation">
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+          <a href="#social">Social Media</a>
         </div>
+      </div>
+      <div class="intro-box">
+        <h2>Hessam Imen</h2>
+        <p>
+          Web designer & front-end <em>developer</em> focused on crafting clean
+          & user-friendly experiences.
+        </p>
+      </div>
     </div>
     <div id="about">
-        <h3>A little bit about me</h3>
-        <img src="./images/hessam.JPG" alt="hessam-image">
-        <p>
-            I am a civil engineer who graduated from the University of Manchester in the field of Project Management. I've been in the construction industry for 10 consecutive years and now I'm on my journey to become a Software Engineer. I've always been passionate about web development and cant wait to design your desired website in the near future.
-        </p>
-
+      <h3>A little bit about me</h3>
+      <img src="../images/hessam.JPG" alt="hessam-image" />
+      <p>
+        I am a civil engineer who graduated from the University of Manchester in
+        the field of Project Management. I've been in the construction industry
+        for 10 consecutive years and now I'm on my journey to become a Software
+        Engineer. I've always been passionate about web development and cant
+        wait to design your desired website in the near future.
+      </p>
     </div>
     <div id="contact">
-        <h3>Let's be in touch</h3>
-        <form>
-            <label for="fname">First name:</label>
-            <input type="text" id="fname" name="fname"><br><br>
-            <label for="lname">Last name:</label>
-            <input type="text" id="lname" name="lname"><br><br>
-            <p>Your favourite Language:</p> 
-            <input type="radio" id="html" name="fav_language" value="HTML">
-            <label for="html">HTML</label><br>
-            <input type="radio" id="css" name="fav_language" value="CSS">
-            <label for="css">CSS</label><br>
-            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-            <label for="javascript">JavaScript</label>
-            <div></div>
-            <textarea name="message" id="message" cols="100" rows="2" placeholder="Please type Your Message Here..."></textarea>
-            <div></div>
-            <input type="submit" value="Submit" id="submit">
-
-              
-          </form>
-        
-
+      <h3>Let's be in touch</h3>
+      <form>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" /><br /><br />
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" /><br /><br />
+        <p>Your favourite Language:</p>
+        <input type="radio" id="html" name="fav_language" value="HTML" />
+        <label for="html">HTML</label><br />
+        <input type="radio" id="css" name="fav_language" value="CSS" />
+        <label for="css">CSS</label><br />
+        <input
+          type="radio"
+          id="javascript"
+          name="fav_language"
+          value="JavaScript"
+        />
+        <label for="javascript">JavaScript</label>
+        <div></div>
+        <textarea
+          name="message"
+          id="message"
+          cols="80"
+          rows="2"
+          placeholder="Please type Your Message Here..."
+        ></textarea>
+        <div></div>
+        <input type="submit" value="Submit" id="submit" />
+      </form>
     </div>
 
     <footer id="social">
-        <a href="mailto:hessam.imen@gmail.com">
-            <img src="./images/icons8-gmail-500.png" alt="gmail">
-        </a>
-        <a href="https://github.com/hessamimen" target="_blank">
-            <img src="./images/icons8-github-500.png" alt="github">
-        </a>
-        <a href="https://www.linkedin.com/in/hessam-imen-7660b870/" target="_blank">
-            <img src="./images/icons8-linkedin-500.png" alt="linkdin">
-        </a>
+      <a href="mailto:hessam.imen@gmail.com">
+        <img src="./images/icons8-gmail-500.png" alt="gmail" />
+      </a>
+      <a href="https://github.com/hessamimen" target="_blank">
+        <img src="./images/icons8-github-500.png" alt="github" />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/hessam-imen-7660b870/"
+        target="_blank"
+      >
+        <img src="./images/icons8-linkedin-500.png" alt="linkdin" />
+      </a>
     </footer>
-    
-
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

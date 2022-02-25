@@ -1,0 +1,144 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue;
+  font-size: 1.5rem;
+  /* min-width: 710px; */
+}
+
+.intro-container {
+  background-image: url(../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpeg);
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  /* min-height: 30vh; */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.nav-bar {
+  display: flex;
+  /* size: 80%; */
+  /* flex-direction: row; */
+  justify-content: space-between;
+  align-items: center;
+  /* flex-wrap:nowrap; */
+  padding: 0.5rem;
+  background-color: rgba(50, 50, 50, 0.7);
+  margin: 10px;
+  /* min-width: none; */
+  /* height: 50px; */
+  /* position: relative; */
+  /* top: 10px; */
+  border-radius: 20px;
+}
+.nav-bar h2 {
+  display: inline;
+}
+.nav-bar a {
+  /*float: right;*/
+  margin: 10px 10px;
+  text-decoration: none;
+  color: aliceblue;
+  /* margin-right: 30px; */
+}
+.nav-bar a:hover {
+  color: gray;
+}
+.intro-box {
+  display: flex;
+  flex-direction: column;
+  margin: 30vh auto;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  background-color: rgba(50, 50, 50, 0.7);
+  text-align: center;
+  /* position: relative; */
+  width: 70%;
+  /* height: 180px; */
+  /* top: 30%; */
+  /* bottom: 10%; */
+  border-radius: 30px;
+}
+
+.intro-box:hover {
+  background-color: rgba(50, 50, 50, 0.8);
+}
+
+#about {
+  padding-top: 10px;
+  background-image: url(../images/black-gc2896b1c1_1920.jpeg);
+  text-align: center;
+}
+#about img {
+  width: 20rem;
+  border-radius: 50%;
+}
+#about p {
+  padding: 30px;
+  margin: 10px auto 0;
+  width: 50%;
+  justify-content: left;
+}
+#contact {
+  color: #000;
+  text-align: center;
+  background-size: cover;
+  background-image: url(../images/mockaroon-YqUeLG7fMr4-unsplash.jpeg);
+  width: 100%;
+}
+#contact h3 {
+  margin-top: 0px;
+  padding: 10px;
+}
+textarea {
+  width: 50%;
+}
+
+#message {
+  margin-top: 20px;
+  padding-bottom: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+}
+#submit {
+  font-size: large;
+  width: 20rem;
+  padding: 10px;
+  margin: 10px;
+}
+#submit:hover {
+  background-color: aqua;
+}
+
+footer img {
+  width: 50px;
+  margin: 0 50px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  /* text-align: center; */
+  background-color: rgba(50, 50, 50, 0.7);
+}
+
+@media screen and (max-width: 730px) {
+  body {
+    font-size: 1rem;
+  }
+  .nav-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* #social img {
+    margin: 0 auto;
+    justify-content: space-around;
+  } */
+  .intro-box {
+    width: 80%;
+  }
+}
