@@ -34,4 +34,4 @@
 
 <h2 align="left">:heart: Let's get connected:</h2>
 
-[![Linkedin Badge](https://img.shields.io/badge/-Hessam Imen-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/hessam-imen-7660b870)](https://www.linkedin.com/in/hessam-imen-7660b870) [![email](https://img.shields.io/static/v1.svg?label=Email&message=Hessam&color=grey&logo=gmail&style=flat&logoColor=white&colorA=critical)](https://www.hessam_imen@yahoo.com/)
+[![Linkedin Badge](https://img.shields.io/badge/-HessamImen-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/hessam-imen-7660b870)](https://www.linkedin.com/in/hessam-imen-7660b870) [![email](https://img.shields.io/static/v1.svg?label=Email&message=Hessam&color=grey&logo=gmail&style=flat&logoColor=white&colorA=critical)](https://www.hessam_imen@yahoo.com/)
