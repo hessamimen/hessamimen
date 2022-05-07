@@ -5,7 +5,7 @@
 
 <abc>
   <p align="center">
-   <img align="center" src="https://media4.giphy.com/media/u2pmTWUi0MXjyrMaVj/giphy.gif?cid=790b761188d454633166a4fe2187b8d06ff05bebb378a587&rid=giphy.gif&ct=g" alt="Coder GIF" width="100%" height="500px">
+   <img align="center" src="https://media4.giphy.com/media/u2pmTWUi0MXjyrMaVj/giphy.gif?cid=790b761188d454633166a4fe2187b8d06ff05bebb378a587&rid=giphy.gif&ct=g" alt="Coder GIF" >
     </p>
 </abc>
 
