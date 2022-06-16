@@ -26,7 +26,7 @@
 
 <h2 align="left">:man_technologist: About Me:</h2>
 
-- :computer: I'm currently working on my portfolio
+- :computer: I'm currently working on my portfolio <a href="https://hessamimen.github.io/myApp/" target="_blank">In progress</a>
 - :hourglass_flowing_sand:  Exploring New Technologies
 - :rocket: Always ready to collaborate for Dev Experiments
 - :dart: Life Hack: "Explore :fire: and Explode :bomb: with knowledge" 
