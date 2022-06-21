@@ -1,7 +1,7 @@
  <!-- Hi there! Feel free to make this your own but don't use my data. Attributions are welcomed --> 
 
 
-# Hi there! Nice to see you.  <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"><br>I'm Hessam <br> Front End Developer from Sydney :computer:
+# Hi there! Nice to see you.  <br>I'm Hessam <br> Front End Developer from Sydney :computer:
 
 <abc>
   <p align="center">
